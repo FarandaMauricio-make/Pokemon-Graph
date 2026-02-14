@@ -49,7 +49,7 @@ st.markdown("""
 @st.cache_data
 def get_data():
     # Caminho absoluto para local
-    db_path_local = r'G:\Meu Drive\Projetos\Poke_projeto\Pokemao\pokemon_dw.db'
+    db_path_local = 'pokemon_dw.db'
     
     # Estratégia de Deploy
     if os.path.exists(db_path_local):
@@ -244,4 +244,5 @@ with tab2:
         **Sobre Gatilhos:**
         Analisando o gráfico de barras, nota-se que o *Level Up* é o mecanismo padrão, 
         mas *Itens* (pedras) são fundamentais para diversificar a árvore.
+
         """)
